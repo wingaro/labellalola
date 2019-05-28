@@ -1,0 +1,68 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+nav.n-av{
+  background-color: #BD7B7B;
+}
+img.tam-img {
+  max-width: 10%;
+  height: auto;
+}
+.sli-der li img{
+max-width: 100% !important;
+max-height: 100% !important;
+background-size: cover !important;
+background-position: center !important;
+}
+a.size{
+font-family: 'Oswald', sans-serif;
+
+}
+ul.tipo-grafia{
+  font-size: 1.2rem;
+}
+
+.white{
+  background-color: #FFA07A !important;
+}
+
+.color-nosotros p{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 2rem;
+}
+
+.color-nosotros h2{
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.fo-oter{
+  padding-top: 20px !important;
+    color: #fff !important;
+    background-color: #BD7B7B !important;
+}
+
+.cam-bio p{
+    font-size: 1rem !important;
+}
+.cam-bio {
+  background-color: aliceblue !important;
+}
+
+.services{
+  padding-top: 5%;
+}
+
+.form-1{
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+  margin-bottom: 30px !important;
+  margin-top: 80px !important;
+  background-color: whitesmoke;
+}
+.boton{
+  background-color: #000000 !important;
+left: 100px;
+bottom: 30px;
+}

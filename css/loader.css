@@ -1,0 +1,53 @@
+/* Loader */
+.loaderIndex {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1010;
+    line-height: 0;
+}
+
+.loaderInner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.loaderFirst , .loaderSecond , .loaderThird , .loaderFourth , .loaderFifth {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    background-color:#FFFFFF  ;
+    transition: all .5s ease;
+}
+
+.loaderFirst , .loaderThird , .loaderFifth {
+    left: 0;
+}
+
+.loaderSecond , .loaderFourth {
+    right: 0;
+}
+
+.loaderFirst {
+    top: 0;
+}
+
+.loaderSecond {
+    top: 20%;
+}
+
+.loaderThird {
+    top: 40%
+}
+
+.loaderFourth {
+    bottom: 20%;
+}
+
+.loaderFifth {
+    bottom: 0;
+}
